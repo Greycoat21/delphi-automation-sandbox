@@ -18,7 +18,7 @@ implementation
 
 procedure TestTMessageGenerator.TestAlwaysTrue();
 begin
-  Check(False);
+  Check(True);
 end;
 
 
