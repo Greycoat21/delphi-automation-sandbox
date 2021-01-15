@@ -912,7 +912,7 @@
             <UnitTesting>
                 <TestProjectName>F:\SynologySVN\AutomationSandbox\Delphi\Hello World\Source\Project\Test\HelloWorldTests.dproj</TestProjectName>
             </UnitTesting>
-            <Dimeric_Software> </Dimeric_Software>
+            <Dimeric_Software/>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>

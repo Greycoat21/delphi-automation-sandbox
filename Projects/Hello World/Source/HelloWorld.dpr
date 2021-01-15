@@ -11,7 +11,7 @@ uses
 var
   x:TMessageGenerator;
 begin
-  x := TMessageGenerator.Create();
+  x := TMessage Generator.Create();
   try
     Writeln(x.DefaultMessage);
   finally
