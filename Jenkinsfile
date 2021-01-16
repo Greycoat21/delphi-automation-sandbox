@@ -21,7 +21,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '%BDS%'
+        sh '%MSBuild% "%WORKSPACE%/Projects/Hello World/Source/HelloWorld.dproj"'
       }
     }
 
