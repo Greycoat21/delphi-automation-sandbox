@@ -21,7 +21,8 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'echo \'Building with bds.exe...\''
+        sh '''echo %cd%
+echo %ls%'''
       }
     }
 
