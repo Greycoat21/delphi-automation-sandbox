@@ -21,8 +21,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '''echo %cd%
-echo %ls%'''
+        sh '%BDS%'
       }
     }
 
