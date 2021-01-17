@@ -21,7 +21,8 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '%MSBuild% "%WORKSPACE%/Projects/Hello World/Source/HelloWorld.dproj"'
+        sh 'echo \'bds build\''
+        sh 'echo \'process .err\''
       }
     }
 
